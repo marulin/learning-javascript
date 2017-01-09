@@ -1,3 +1,3 @@
 # learning-javascript
 
-### javascript从入门到精通
+### Javascript从入门到精通
