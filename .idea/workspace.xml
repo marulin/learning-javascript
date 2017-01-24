@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fc56e27-913a-4432-b4c2-95ed1a1d3001" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpatten/facade.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpatten/factory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpatten/proxy.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="learning-javascript.iws" />
@@ -25,12 +24,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="facade.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/designpatten/facade.js">
+      <file leaf-file-name="proxy.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/designpatten/proxy.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.75342464">
-              <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-              <folding />
+            <state vertical-scroll-proportion="0.47945204">
+              <caret line="66" column="28" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
+              <folding>
+                <element signature="n#!!doc;n#GeoCoder#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,6 +63,7 @@
         <option value="$PROJECT_DIR$/oo/inheritance.js" />
         <option value="$PROJECT_DIR$/designpatten/factory.js" />
         <option value="$PROJECT_DIR$/designpatten/facade.js" />
+        <option value="$PROJECT_DIR$/designpatten/proxy.js" />
       </list>
     </option>
   </component>
@@ -147,34 +149,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learning-javascript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learning-javascript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="datastruct" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learning-javascript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learning-javascript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="basic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -193,11 +167,8 @@
       <recent name="$PROJECT_DIR$/basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.facade.js">
+  <component name="RunManager" selected="Node.js.proxy.js">
     <configuration default="false" name="stack.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="stack.js" working-dir="$PROJECT_DIR$/datastruct">
-      <method />
-    </configuration>
-    <configuration default="false" name="queue.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="queue.js" working-dir="$PROJECT_DIR$/datastruct">
       <method />
     </configuration>
     <configuration default="false" name="inheritance.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="inheritance.js" working-dir="$PROJECT_DIR$/oo">
@@ -207,6 +178,9 @@
       <method />
     </configuration>
     <configuration default="false" name="facade.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="facade.js" working-dir="$PROJECT_DIR$/designpatten">
+      <method />
+    </configuration>
+    <configuration default="false" name="proxy.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="proxy.js" working-dir="$PROJECT_DIR$/designpatten">
       <method />
     </configuration>
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
@@ -254,18 +228,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Node.js.stack.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.queue.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.inheritance.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.factory.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.facade.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.inheritance.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.factory.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.facade.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.proxy.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.facade.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.factory.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.inheritance.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.stack.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.queue.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.proxy.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.facade.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.factory.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.inheritance.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.stack.js" />
       </list>
     </recent_temporary>
   </component>
@@ -431,9 +405,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/designpatten/facade.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75342464">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpatten/proxy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47945204">
+          <caret line="66" column="28" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc;n#GeoCoder#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
