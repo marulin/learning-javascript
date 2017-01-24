@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fc56e27-913a-4432-b4c2-95ed1a1d3001" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oo/inheritance.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpatten/facade.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designpatten/factory.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="learning-javascript.iws" />
@@ -24,14 +25,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="inheritance.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/oo/inheritance.js">
+      <file leaf-file-name="facade.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/designpatten/facade.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65831435">
-              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#40#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="0.75342464">
+              <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -61,6 +60,8 @@
         <option value="$PROJECT_DIR$/datastruct/stack.js" />
         <option value="$PROJECT_DIR$/oo/inherent.js" />
         <option value="$PROJECT_DIR$/oo/inheritance.js" />
+        <option value="$PROJECT_DIR$/designpatten/factory.js" />
+        <option value="$PROJECT_DIR$/designpatten/facade.js" />
       </list>
     </option>
   </component>
@@ -192,13 +193,7 @@
       <recent name="$PROJECT_DIR$/basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.inheritance.js">
-    <configuration default="false" name="string.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="string.js" working-dir="$PROJECT_DIR$/basic">
-      <method />
-    </configuration>
-    <configuration default="false" name="stringUtils.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="stringUtils.js" working-dir="$PROJECT_DIR$/basic">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Node.js.facade.js">
     <configuration default="false" name="stack.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="stack.js" working-dir="$PROJECT_DIR$/datastruct">
       <method />
     </configuration>
@@ -206,6 +201,12 @@
       <method />
     </configuration>
     <configuration default="false" name="inheritance.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="inheritance.js" working-dir="$PROJECT_DIR$/oo">
+      <method />
+    </configuration>
+    <configuration default="false" name="factory.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="factory.js" working-dir="$PROJECT_DIR$/designpatten">
+      <method />
+    </configuration>
+    <configuration default="false" name="facade.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="facade.js" working-dir="$PROJECT_DIR$/designpatten">
       <method />
     </configuration>
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
@@ -252,19 +253,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.string.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.stringUtils.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.stack.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.queue.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.inheritance.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.stack.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.queue.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.inheritance.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.factory.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.facade.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.inheritance.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.stack.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.queue.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.stringUtils.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.string.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.facade.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.factory.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.inheritance.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.stack.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.queue.js" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +283,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="23" width="1440" height="813" extended-state="6" />
+    <frame x="4" y="23" width="1440" height="813" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19591261" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -290,9 +291,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32998565" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3294964" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32855093" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -312,9 +313,9 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32998565" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32855093" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19591261" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3294964" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19591261" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -410,11 +411,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/oo/inheritance.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65831435">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.30821916">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="e#0#40#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpatten/factory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14383562">
+          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc;n#CarMaker#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpatten/facade.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75342464">
+          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
